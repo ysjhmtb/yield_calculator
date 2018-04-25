@@ -1,0 +1,41 @@
+class RowObject:
+    def __init__(self, name, date, longshort, price, amount):
+        self.name = name
+        self.date = date
+        self.longshort = longshort
+        self.price = price
+        self.amount = amount
+
+
+# 평균 매수 가격
+def getAverageLongPrice(rowlist):
+    pmula = 0
+    amount_sum = 0
+    for i in range(len(rowlist)):
+        if (rowlist[i].longshort == "long"):
+            amount_sum = amount_sum + rowlist[i].amount
+            inserted_result = rowlist[i].price * rowlist[i].amount
+            pmula = pmula + inserted_result
+
+    result = pmula / amount_sum
+    print("총 매수 자금 : " + str(pmula))
+    return result
+
+
+# KODEX 레버리지
+kodex_leverage_list = []
+
+kodex_leverage_list.append(RowObject("KODEX레버리지", "2017/12/04/MON", "long", 17610, 16))
+kodex_leverage_list.append(RowObject("KODEX레버리지", "2017/12/05/TUE", "long", 17850, 2))
+kodex_leverage_list.append(RowObject("KODEX레버리지", "2017/12/20/WED", "long", 17620, 27))
+kodex_leverage_list.append(RowObject("KODEX레버리지", "2017/12/21/THU", "long", 16875, 30))
+kodex_leverage_list.append(RowObject("KODEX레버리지", "2017/12/26/TUE", "long", 17030, 58))
+kodex_leverage_list.append(RowObject("KODEX레버리지", "2018/02/06/TUE", "long", 16415, 91))
+kodex_leverage_list.append(RowObject("KODEX레버리지", "2018/04/25/WED", "long", 16230, 123))
+
+# KODEX 미국달러선물인버스2X
+kodex_dollar_inverse_2x_list = []
+kodex_dollar_inverse_2x_list.append(RowObject("KODEX미국달러선물인버스2X", "2018/04/25/WED", "long", 11975, 41))
+
+# KODEX 레버리지 평균 매입 가격
+print(getAverageLongPrice(kodex_leverage_list))
