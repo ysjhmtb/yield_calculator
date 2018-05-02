@@ -4,6 +4,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import csv
+import os
 
 
 # 데이터 처리 클래스
@@ -53,7 +54,11 @@ raw_date = []
 raw_vix = []
 raw_total = []
 
-f = open('VIXCLS0414.csv', 'r', encoding='utf-8')
+script_dir = os.path.dirname(__file__)
+rel_path = "dataStorage/VIXCLS0414.csv"
+abs_file_path = os.path.join(script_dir,rel_path)
+
+f = open(abs_file_path, 'r', encoding='utf-8')
 rdr = csv.reader(f)
 for line in rdr:
     raw_date.append(line[0])

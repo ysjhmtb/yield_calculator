@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b01095e-1d77-4e65-96c9-619a003f3be3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/vix_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/vix_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataCalculator/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataCalculator/cleaning/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataCalculator/cleaning/dataCleaning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataCalculator/graph/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataCalculator/graph/drawGraph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIXCLS0414.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dataField/dataStorage/VIXCLS0414.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_raw_data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/dataField/dataStorage/my_raw_data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vix_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataField/vix_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yield_calculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataField/yield_calculation.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,24 +22,15 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/yield_calculator$yield_calculation.coverage" NAME="yield_calculation Coverage Results" MODIFIED="1524670425497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yield_calculator$vix_test.coverage" NAME="vix_test Coverage Results" MODIFIED="1525201996293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yield_calculator$vix_test.coverage" NAME="vix_test Coverage Results" MODIFIED="1525274204165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="yield_calculation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yield_calculation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="vix_test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vix_test.py">
+        <entry file="file://$PROJECT_DIR$/dataField/vix_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-947">
-              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+            <state relative-caret-position="167">
+              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
               <folding>
                 <element signature="e#26#44#0" expanded="true" />
               </folding>
@@ -38,11 +38,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VIXCLS0414.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VIXCLS0414.csv">
+      <file leaf-file-name="dataCleaning.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataCalculator/cleaning/dataCleaning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21252">
-              <caret line="966" column="7" selection-start-line="966" selection-end-line="967" />
+            <state relative-caret-position="484">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drawGraph.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataCalculator/graph/drawGraph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -65,6 +74,10 @@
         <option value="$PROJECT_DIR$/rowObject.py" />
         <option value="$PROJECT_DIR$/yield_calculation.py" />
         <option value="$PROJECT_DIR$/vix_test.py" />
+        <option value="$PROJECT_DIR$/dataCalculator/dataCleaning/cleaning.py" />
+        <option value="$PROJECT_DIR$/dataCalculator/graph/drawGraph.py" />
+        <option value="$PROJECT_DIR$/dataCalculator/cleaning/dataCleaning.py" />
+        <option value="$PROJECT_DIR$/dataField/vix_test.py" />
       </list>
     </option>
   </component>
@@ -89,12 +102,36 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yield_calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yield_calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yield_calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yield_calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="dataField" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataField" />
+      <recent name="$PROJECT_DIR$/dataStorage" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -122,7 +159,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vix_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataField/vix_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +178,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yield_calculation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataField/yield_calculation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,14 +215,14 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27654868" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3141593" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.50104386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10208333" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.3296875" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32962328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46238938" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -206,32 +243,49 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/vix_test.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yield_calculation.py">
+    <entry file="file://$PROJECT_DIR$/dataField/yield_calculation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VIXCLS0414.csv">
+    <entry file="file://$PROJECT_DIR$/dataField/dataStorage/VIXCLS0414.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21252">
+          <caret line="966" column="7" selection-start-line="966" selection-end-line="967" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataField/vix_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding>
+            <element signature="e#26#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataField/yield_calculation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataField/dataStorage/VIXCLS0414.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21252">
           <caret line="966" column="7" lean-forward="true" selection-start-line="966" selection-end-line="967" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vix_test.py">
+    <entry file="file://$PROJECT_DIR$/dataField/vix_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1166">
           <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
@@ -241,21 +295,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yield_calculation.py">
+    <entry file="file://$PROJECT_DIR$/dataField/yield_calculation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VIXCLS0414.csv">
+    <entry file="file://$PROJECT_DIR$/dataField/dataStorage/VIXCLS0414.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21252">
           <caret line="966" selection-start-line="966" selection-end-line="967" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vix_test.py">
+    <entry file="file://$PROJECT_DIR$/dataField/vix_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
           <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
@@ -265,66 +319,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yield_calculation.py">
+    <entry file="file://$PROJECT_DIR$/dataField/yield_calculation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VIXCLS0414.csv">
+    <entry file="file://$PROJECT_DIR$/dataField/dataStorage/VIXCLS0414.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yield_calculation.py">
+    <entry file="file://$PROJECT_DIR$/dataField/yield_calculation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VIXCLS0414.csv">
+    <entry file="file://$PROJECT_DIR$/dataField/dataStorage/VIXCLS0414.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yield_calculation.py">
+    <entry file="file://$PROJECT_DIR$/dataField/yield_calculation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yield_calculation.py">
+    <entry file="file://$PROJECT_DIR$/dataField/yield_calculation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yield_calculation.py">
+    <entry file="file://$PROJECT_DIR$/dataField/yield_calculation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VIXCLS0414.csv">
+    <entry file="file://$PROJECT_DIR$/dataCalculator/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataField/dataStorage/VIXCLS0414.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21252">
+        <state relative-caret-position="835">
           <caret line="966" column="7" selection-start-line="966" selection-end-line="967" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vix_test.py">
+    <entry file="file://$PROJECT_DIR$/dataCalculator/cleaning/dataCleaning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-947">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        <state relative-caret-position="484">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataCalculator/graph/drawGraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataField/vix_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
           <folding>
             <element signature="e#26#44#0" expanded="true" />
           </folding>
