@@ -46,9 +46,11 @@ print(dataCleaning.findIndexAtValue(raw_date, '2017-01-02')) # 965
 raw_vix = dataCleaning.strToFloat(raw_vix,'.')
 print(len(raw_vix))  # 1304
 
-# 60일 이동평균선 그리기
+# 이동평균선 그리기
+drawGraph.drawAvgLine(raw_date,raw_vix,1200,1304,5)
 
-drawGraph.drawAvgLine(raw_date,raw_vix,1200,1304,60)
+# 이격도 그리기
+drawGraph.drawDisparityAndAvgLine(raw_date,raw_vix,1200,1304,5)
 
-# https://stackoverflow.com/questions/4805048/how-to-get-different-colored-lines-for-different-plots-in-a-single-figure
+
 
