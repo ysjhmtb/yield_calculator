@@ -131,3 +131,19 @@ while f < 20:
 plt.plot(fList, sumList, label='f1')
 plt.legend()
 plt.show()
+
+
+# compound interest
+seed = 100
+seedlist = []
+for i in range(len(yieldList)):
+    seed *= (1 + 5 * yieldList[i])
+    seedlist.append(seed)
+
+plt.plot(seedlist,label='compound interest growth')
+plt.legend()
+plt.show()
+
+plt.plot(yieldList,label='yield distribution')
+plt.legend()
+plt.show()
