@@ -145,7 +145,7 @@ plt.show()
 seed = 100
 seedlist = []
 for i in range(len(momYield)):
-    seed *= (1 + 5 * momYield[i])
+    seed *= (1 + 7 * momYield[i])
     seedlist.append(seed)
 
 plt.plot(seedlist,label='compound interest growth')
