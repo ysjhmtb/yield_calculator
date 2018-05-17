@@ -140,6 +140,24 @@ plt.plot(momYield, label='momYield1')
 plt.legend()
 plt.show()
 
+
+# compound interest
+seed = 100
+seedlist = []
+for i in range(len(momYield)):
+    seed *= (1 + 5 * momYield[i])
+    seedlist.append(seed)
+
+plt.plot(seedlist,label='compound interest growth')
+plt.legend()
+plt.show()
+
+plt.plot(momYield,label='yield distribution')
+plt.legend()
+plt.show()
+
+
+
 # momYield and Kelly : 2
 momYield = []
 
@@ -187,3 +205,4 @@ plt.show()
 plt.plot(momYield, label='momYield2')
 plt.legend()
 plt.show()
+
