@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b01095e-1d77-4e65-96c9-619a003f3be3" name="Default" comment="" />
+    <list default="true" id="4b01095e-1d77-4e65-96c9-619a003f3be3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +14,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/yield_calculator$kellyExample.coverage" NAME="kellyExample Coverage Results" MODIFIED="1526151401671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataField" />
     <SUITE FILE_PATH="coverage/yield_calculator$usdEmperical1.coverage" NAME="usdEmperical1 Coverage Results" MODIFIED="1526578149688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataField" />
-    <SUITE FILE_PATH="coverage/yield_calculator$kellyTest.coverage" NAME="kellyTest Coverage Results" MODIFIED="1526579264432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataField" />
+    <SUITE FILE_PATH="coverage/yield_calculator$yieldCalMay.coverage" NAME="yieldCalMay Coverage Results" MODIFIED="1527274230124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataField" />
+    <SUITE FILE_PATH="coverage/yield_calculator$kellyTest.coverage" NAME="kellyTest Coverage Results" MODIFIED="1527273652936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataField" />
     <SUITE FILE_PATH="coverage/yield_calculator$yield_calculation.coverage" NAME="yield_calculation Coverage Results" MODIFIED="1524670425497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yield_calculator$vix_test.coverage" NAME="vix_test Coverage Results" MODIFIED="1525694903158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -21,7 +24,7 @@
       <file leaf-file-name="usdEmperical1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataField/usdEmperical1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3102">
+            <state>
               <caret line="144" column="10" selection-start-line="135" selection-end-line="149" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -30,20 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usdEmperical.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dataField/usdEmperical.py">
+      <file leaf-file-name="yield_calculation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataField/yield_calculation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1697">
-              <caret line="147" column="18" selection-start-line="147" selection-start-column="18" selection-end-line="147" selection-end-column="18" />
+            <state relative-caret-position="170">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="USDKRW0507.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataField/dataStorage/USDKRW0507.csv">
+      <file leaf-file-name="usdEmperical.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dataField/usdEmperical.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15400">
-              <caret line="700" column="11" selection-start-line="700" selection-start-column="11" selection-end-line="700" selection-end-column="11" />
+            <state relative-caret-position="25">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -74,6 +77,7 @@
         <option value="$PROJECT_DIR$/dataField/kellyExample.py" />
         <option value="$PROJECT_DIR$/dataField/usdEmperical1.py" />
         <option value="$PROJECT_DIR$/dataField/usdEmperical.py" />
+        <option value="$PROJECT_DIR$/dataField/yieldCalMay.py" />
       </list>
     </option>
   </component>
@@ -111,6 +115,12 @@
               <item name="yield_calculator" type="462c0819:PsiDirectoryNode" />
               <item name="dataField" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="yield_calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yield_calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="dataField" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStorage" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -141,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kellyTest">
+  <component name="RunManager" selected="Python.yieldCalMay">
     <configuration name="kellyExample" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yield_calculator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,7 +228,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="yield_calculation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="yieldCalMay" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yield_calculator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,31 +236,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataField" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataField/yield_calculation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataField/yieldCalMay.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.yield_calculation" />
       <item itemvalue="Python.vix_test" />
       <item itemvalue="Python.kellyTest" />
       <item itemvalue="Python.kellyExample" />
       <item itemvalue="Python.usdEmperical1" />
+      <item itemvalue="Python.yieldCalMay" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.yieldCalMay" />
         <item itemvalue="Python.kellyTest" />
         <item itemvalue="Python.usdEmperical1" />
         <item itemvalue="Python.kellyExample" />
         <item itemvalue="Python.vix_test" />
-        <item itemvalue="Python.yield_calculation" />
       </list>
     </recent_temporary>
   </component>
@@ -269,6 +279,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="978" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -277,12 +288,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32976654" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32964602" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16458334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16458334" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.41770834" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.27864584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38424125" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38384956" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -296,24 +307,24 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.22885129" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32976654" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35603112" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32964602" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38424125" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32976654" />
       <window_info anchor="right" id="SciView" order="3" weight="0.539726" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32964602" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,10 +342,34 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dataField/usdEmperical1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3102">
+          <caret line="144" column="10" selection-start-line="135" selection-end-line="149" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataField/dataStorage/USDKRW0507.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15400">
+          <caret line="700" column="11" selection-start-line="700" selection-start-column="11" selection-end-line="700" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataField/usdEmperical.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3168">
+          <caret line="147" column="18" selection-start-line="147" selection-start-column="18" selection-end-line="147" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dataField/usdEmperical1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3102">
@@ -571,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataField/yield_calculation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataCalculator/graph/drawGraph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-507">
@@ -600,23 +628,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataField/kellyExample.py" />
-    <entry file="file://$PROJECT_DIR$/dataField/dataStorage/USDKRW0507.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15400">
-          <caret line="700" column="11" selection-start-line="700" selection-start-column="11" selection-end-line="700" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="331" selection-start-line="331" selection-end-line="331" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataField/usdEmperical1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3102">
+        <state>
           <caret line="144" column="10" selection-start-line="135" selection-end-line="149" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -624,10 +638,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dataField/dataStorage/USDKRW0507.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="700" column="11" selection-start-line="700" selection-start-column="11" selection-end-line="700" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataField/yield_calculation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataField/dataStorage/my_raw_data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataField/yieldCalMay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dataField/usdEmperical.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1697">
-          <caret line="147" column="18" selection-start-line="147" selection-start-column="18" selection-end-line="147" selection-end-column="18" />
+        <state relative-caret-position="25">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
