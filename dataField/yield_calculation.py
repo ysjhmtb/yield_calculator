@@ -36,6 +36,15 @@ kodex_leverage_list.append(RowObject("KODEX레버리지", "2018/04/25/WED", "lon
 # KODEX 미국달러선물인버스2X
 kodex_dollar_inverse_2x_list = []
 kodex_dollar_inverse_2x_list.append(RowObject("KODEX미국달러선물인버스2X", "2018/04/25/WED", "long", 11975, 41))
+kodex_dollar_inverse_2x_list.append(RowObject("KODEX미국달러선물인버스2X", "2018/05/30/WED", "long", 11940, 20))
+kodex_dollar_inverse_2x_list.append(RowObject("KODEX미국달러선물인버스2X", "2018/05/30/WED", "long", 11925, 20))
 
 # KODEX 레버리지 평균 매입 가격
 print(getAverageLongPrice(kodex_leverage_list))
+# 총 매수 자금 : 5777245
+# 16649.121037463978
+
+# KODEX 미국달러선물인버스2X 평균 매입 가격
+print(getAverageLongPrice(kodex_dollar_inverse_2x_list))
+# 총 매수 자금 : 968275
+# 11954.012345679012
